@@ -1,0 +1,23 @@
+Nagios Nedir?
+Nagios sistem ve ağ denetleme uygulamasıdır.Belirtilen makine üzerinde çalışan
+servislerin durumunu kontrol eder ve uygulamalarda bir problem olduğunda belirtilen
+yöntemle kullanıcıya bildirir(mail,sms,vb.)
+
+Nagios ile yapılabilecekler;
+-Network servisleri denetleme(SMTP,POP3,HTTP,NNTP,PING,vs)
+-Makine kaynakları denetleme(disk kullanımı,cpu,ram,vs)
+-Otomatik log döndürme(log rotation)
+-Mail,SMS,Telefon,ICQ vb yöntemlerle uyarı verebilme(warning and critical alert)
+-Web arayüzünden makinelerin,servislerin,logların ayrıntılı takibi yapılabilmekte
+
+Nagios Plugin:
+Nagios'un esnek olabilmesinin sebebi aslında pluginlerdir.Pluginler perl,shell vb yazılmış
+komut satırından çalıştırılabilirler belirtilen makine ve servislerin durumunu kontrol eder.
+Pluginlerden gelen cevaba göre servislerin yada makinelerin durumunu bildirir.
+
+Kaynaklar:
+https://www.syslogs.org/nagios-kurulumu-ve-yapilandirmasi/
+https://www.youtube.com/watch?v=wXpcpLrGfA0
+https://www.youtube.com/watch?v=isqyRk7cQkA
+https://www.youtube.com/watch?v=OZwO_iCAx5k
+https://sematext.com/blog/server-monitoring-tools/
